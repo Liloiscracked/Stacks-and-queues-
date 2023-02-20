@@ -19,13 +19,11 @@ public class StacksTest {
 		
 		for(int i = 0; i < input.length(); i++)
 			s.push(input.charAt(i) + "");
-			
+
 		System.out.println("The reversed string is: ");
 		while(!s.isEmpty()) {
 			System.out.print(s.pop());
 		}
-		
 		System.out.println();
-		
 	}
 }
