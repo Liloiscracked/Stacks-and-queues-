@@ -44,7 +44,7 @@ public class BalancedParentheses {
         else
             return false;
     }
-    public static boolean isMatch(String a , String b){ // to check if the closing and opening are matched
+    public static boolean isMatch(String a , String b){ // to check if the closing and opening are matched a is the opener and b is the closer
         if(a.equals("(") & b.equals(")"))
             return true;
         else if (a.equals("{") & b.equals("}")) {

@@ -23,7 +23,7 @@ public class Postfix {
          catch (Exception e) {
              if (stack.pool.size() == 1) {
                  System.out.println("your postfix expression is not valid!!");
-                 return stack.pop();
+                 break;
              } else {
                  System.out.println("Stack now is >> " + stack.toString());
                  double n1 = stack.pop();
